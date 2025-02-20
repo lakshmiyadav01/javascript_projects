@@ -1,0 +1,42 @@
+.body{
+    background-color: black;
+    color: white;
+}
+.heading{
+    text-align: center;
+}
+.left_sidebar{
+    height: 100%;
+    background-color: rgba(240, 255, 255, 0.084);
+    width: 35%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.right_sidebar{
+    background-color: rgba(240, 255, 255, 0.084);
+    height: 100%;
+    width: 80%;
+    margin-left: 15px;
+    text-align: center;
+}
+.main{
+    height: 635px;
+    width: 100%;
+    display: flex;
+   margin-top: 32px;
+}
+.sub_heading{
+    margin-top: 30px;
+}
+.button{
+    background-color: rgb(41, 38, 38);
+    padding: 12px;
+    width: auto;
+    margin: 30px 40px 15px 40px;
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
