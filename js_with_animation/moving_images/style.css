@@ -1,0 +1,26 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing: border-box;
+font-family: gilroy;
+}
+html,
+body {
+height: 100%;
+width: 100%;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}.box img{
+    height: 400px;
+    filter: drop-shadow(1px 1px 20px blue );
+}
